@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pertemuan 3 - Event JQuery</title>
+	<script type="text/javascript" src="../jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<!-- Event adalah sebuah method atau aksi yang dilakkukan JQuery... -->
+	<!-- Event merupakan aksi lanjutan setelah menetapkan selector -->
+	<!-- Event-Event yang ada di JQuery
+		1. .bind()			11. .error()
+		2. .blur()			12. event.currentTarget
+		3. .change()		13. event.data
+		4. .click()			14. event.delegateTarget
+		5. .contextmenu()	15. event.isDefaultPrevent()
+		6. .dbclick			16. event.isImmaedeateProgationStopped()
+		7. .delegate()		17. event.isPropagationStopped()
+		8. .die()			18. event.metaKey
+		9. .unload()		19. event.namespace
+		10. .undelegate		20. ...dst
+
+		di documentasi www.jquery,com > API Documentation > Event -->
+
+	<button id="click">Event Click</button>
+	<button id="dblclick">Double Click</button>
+
+	<h3 class="mouse">Mouse Event <span>ini mouse leave dan mouse enter</span></h3>
+
+	<label>Event Keydown</label>
+	<input type="text" id="keydown" name="">
+	<p id="pesan_keydown"></p>
+
+	<label>Event KeyUp</label>
+	<input type="text" id="keyup" name="">
+	<p id="pesan_keyup"></p>
+</body>
+</html>

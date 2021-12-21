@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pertemuan 4 - Efek JQuery - Part 1</title>
+	<script type="text/javascript" src="../jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<!-- Efek Jquery digunakan untuk menambahkan animasi ke dalam halaman web. Terdapat bermacam-macam animasi, mulai dari aniimasi sederhana, animasi standart sampai dengan keinginan sendiri. -->
+
+	<!-- Efek-Efek Dasar
+		~ Show
+		~ Hide
+		Efek-efek Fadding
+		~ FadeIn
+		~ FadeOut
+		~ FadeToggle
+		~ FadeTo
+		Efek-efek Sliding
+		~ Animate
+		~ SlideUp
+		~ SlideDown
+		~ SlideToggle
+		Efek-efek Custom
+		~ Animate
+		~ ClearQueue
+		~ Delay
+		~ Dequeue
+		~ Queue
+		~ Stop
+	 -->
+
+	 <!-- di documentasi www.jquery,com > API Documentation > Effect -->
+
+	 <label><strong>Efek Hide & Show - Part 1</strong></label><br>
+	 <button id="hide">Hide</button>
+	 <button id="show">Show</button>
+	 <div id="kotak" style="width: 200px; height: 200px; background-color: orange;"></div><br>
+
+	 <label><strong>Efek fadeOut, fadeIn, fadeToggle & fadeTo</strong></label><br>
+	 <button id="fadeout">fadeOut</button>
+	 <button id="fadein">fadeIn</button>
+	 <button id="fadetoggle">fadeToggle</button>
+	 <button id="fadeto">fadeTo</button>
+	 <div class="box1" style="width: 50px; height: 50px; background-color: red;"></div><br>
+	 <div class="box2" style="width: 50px; height: 50px; background-color: green;"></div><br>
+	 <div class="box3" style="width: 50px; height: 50px; background-color: blue;"></div><br>
+	 <div class="box4" style="width: 50px; height: 50px; background-color: black;"></div><br>
+
+	 <label><strong>Efek slideOut, slideIn, slideToggle & slideTo - Part 2</strong></label><br>
+	 <button id="slideup">slideUp</button>
+	 <button id="slidedown">slideDown</button>
+	 <button id="slidetoggle">slideToggle</button>
+	 <div id="slide" style="width: 50px; height: 50px; background-color: red;"></div><br>
+
+	 <label><strong>Efek Custom - Part 3</strong></label><br>
+	 <!-- Efek Custom adalah efek yang dibuat oleh developers sendiri tanpa menggunakan efek library yang telah disediakan oleh JQuery -->
+
+	 <button id="kiri">&laquo;</button>
+	 <button id="kanan">&raquo;</button>
+	 <div id="animate-box" style="width: 100px; height: 100px; background-color: #abc; margin: auto; position: absolute;"></div><br>
+
+	 <button id="start" style="margin-top: 120px;">start</button>
+	 <button id="stop" style="margin-top: 120px;">stop</button>
+	 <div id="clearqueue-box" style="width: 100px; height: 100px; background-color: lime; margin: auto; position: absolute;"></div><br>
+
+	 <button id="delay" style="margin-top: 120px">Run</button>
+	 <div id="kotak-satu" style="width: 100px; height: 100px; background-color: indigo; margin: auto; position: absolute; float: left;">Kotak Satu (delay)</div>
+	 <div id="kotak-dua" style="width: 100px; height: 100px; background-color: aqua; margin: auto; position: absolute; float: left; left: 120px;">Kotak Dua</div>
+	</body>
+</html>

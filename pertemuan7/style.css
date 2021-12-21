@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: midnightblue;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+	width: 700px;
+	margin: auto;
+	padding: 8px;
+	margin: 50px;
+	background-color: white;
+	border-radius: 6px; /*untuk membuat ujungnya menjadi rounded*/
+}
+
+.navbar ul li {
+	display: inline-block; /*fungsi dari inline-block adalah untuk meluruskan menu navbar*/
+	padding: 0px 10px;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.navbar ul li a {
+	color: #2a333b;
+	font-weight: bold;
+	text-decoration: none; /*untuk menghilangkan garis bawah ditulisan menu tersebut*/
+	padding-top: 10px;
+}
+
+.navbar ul li ul {
+	display: none; /*untuk menyembunyikan isi dari <li> about dan service*/
+	position: absolute;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.navbar ul li ul li {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.navbar ul li ul li a {
+	color: #666666;
+	display: block;
+}
+
+.navbar ul li ul li a:hover {
+	background-color: seagreen;
+	color: white;
+	border-top: none;
+}
+
+.navbar ul li ul li a:active {
+	position: relative;
+	top: 1px;
+}
